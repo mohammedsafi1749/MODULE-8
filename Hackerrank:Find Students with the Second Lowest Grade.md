@@ -40,5 +40,6 @@ To write a Python program to:
         print(name)
 ## Output
 <img width="346" height="411" alt="image" src="https://github.com/user-attachments/assets/a1343f22-3e70-46b8-bf0e-9233aa1da326" />
+
 ## Result
 Thus the program executed successfully .
