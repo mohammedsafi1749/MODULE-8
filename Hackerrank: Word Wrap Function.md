@@ -31,6 +31,11 @@ To write a Python function that takes a long string and a specified width, and r
         for i in range(0, len(string), max_width):
             wrapped_lines.append(string[i:i+max_width])
         return '\n'.join(wrapped_lines)
+## Example
+    text = input("Enter a long string: ")
+    width = int(input("Enter max width: "))
+    print("\nWrapped Text:\n")
+    print(wrap(text, width))
 
 ## Sample Output
 <img width="738" height="400" alt="image" src="https://github.com/user-attachments/assets/858f3b19-2646-487d-a171-a6cef2f49575" />
